@@ -20,7 +20,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/zulhusni2003/Shopping-Notes.git
+   git clone https://github.com/MuhammadZulhusni/Shopping-Notes.git
    
 2. Navigate to the project directory:
    ```bash
