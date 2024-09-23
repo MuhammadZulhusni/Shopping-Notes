@@ -27,10 +27,11 @@ export default function Form({ onAddItem }) {
     setQuantity(1);
   }
 
-  // Create an array of options for the quantity select input, ranging from 1 to 20
+  // Create an array of 20 <option> elements, values from 1 to 20
   const quantityNum = [...Array(20)].map((_, i) => (
+    // Generate <option> elements with value and key set to i + 1
     <option value={i + 1} key={i + 1}>
-      {i + 1}
+      {i + 1} {/* Display the value inside the <option> */}
     </option>
   ));
 
